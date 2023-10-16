@@ -1,5 +1,33 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	color: inherit;
+}
+
+nav {
+	background-color: aqua;
+	color: red;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    padding: 20px 5%;
+}
+
+nav h1 {
+	color: blue;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+
+nav ul li:hover {
+	border-bottom: 1px solid rgb(208, 127, 27);
 }
